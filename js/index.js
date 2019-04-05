@@ -1,3 +1,6 @@
+$(document).ready(function () {
+$('#content').hide().fadeIn(3000); 
+  
 function resetSign01() {
   welcome = '';
   setSign();
@@ -64,3 +67,4 @@ setSign();
 
 var el= document.getElementById('resetButton');
 el.addEventListener('click', resetSign02, false);
+})  
